@@ -5,6 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { TruncatePipe } from './pipe/truncate.pipe';
 import { SafeHtmlPipe } from './pipe/safe-html.pipe';
 import { PlainTextPipe } from './pipe/plain-text.pipe';
+import { OnlyNumbersDirective } from './directive/only-numbers.directive';
 
 @NgModule({
   imports: [
@@ -19,8 +20,11 @@ import { PlainTextPipe } from './pipe/plain-text.pipe';
   declarations: [
     SafeHtmlPipe,
     TruncatePipe,
-    PlainTextPipe
+    PlainTextPipe,
+    OnlyNumbersDirective
   ],
-  exports: [ ]
+  exports: [
+    OnlyNumbersDirective
+  ]
 })
 export class SharedModule { }
