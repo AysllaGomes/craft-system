@@ -17,6 +17,8 @@
 /log
 /libs
 
+.angular
+
 # expo
 .expo
 .expo-shared
