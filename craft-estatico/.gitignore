@@ -1,18 +1,37 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Compiled output
+# compiled output
 /dist
 /tmp
 /out-tsc
-/bazel-out
+/data
+/k8s/data
+/CachedData
+/User
+/logs
+/Cache
+/GPUCache
+/CachedExtensions
+/Backups
+/Local Storage
+/log
+/libs
 
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
+# expo
+.expo
+.expo-shared
+
+# Database Local
+
+/bd_Data
+/metabase-data
+
+# dependencies
+node_modules/
+package-lock.json
 
 # IDEs and editors
-.idea/
+/.idea
 .project
 .classpath
 .c9/
@@ -20,23 +39,45 @@ yarn-error.log
 .settings/
 *.sublime-workspace
 
-# Visual Studio Code
+# IDE - VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history/*
 
-# Miscellaneous
-/.angular/cache
-.sass-cache/
+# jest coverage
+# /coverage
+
+# misc
+/.sass-cache
 /connect.lock
 /coverage
 /libpeerconnection.log
+npm-debug.log
+yarn-error.log
 testem.log
 /typings
+.npmrc
+.old.npmrc
+/Workspaces
+workspace.json
 
-# System files
+# System Files
 .DS_Store
 Thumbs.db
+
+# Test files - executions
+D2018*
+jmeter.log
+
+# Sonar - Static Analysis
+.scannerwork
+/node_modules/
+./node_modules/
+../node_modules/
+/dist/
+/.vscode/
+/.bbdev/
+
+dist/
