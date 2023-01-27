@@ -1,1 +1,796 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'variables';
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .ui-widget, body .ui-widget .ui-widget {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/**
+*
+*
+* @todo falta separar os css de cada componente alterado e tambem isolar o que é personalização a nível de template ou style simples
+*
+*
+*
+*
+**/
+
+*[hidden] {
+  display: none !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+@media (min-width: 642px) {
+  .ui-fluid .ui-button {
+    width: auto;
+  }
+}
+
+.btn-fluid {
+  width: 100% !important;
+}
+
+.layout-container .topbar .logo {
+  background-position: center;
+  background-size: contain;
+  height: 35px;
+}
+
+.ui-g.form-group > div {
+  padding: 1.1em;
+}
+
+.swal-footer {
+  text-align: center;
+}
+
+.swal-text {
+  text-align: center;
+}
+
+.ui-button {
+  min-width: 1.5em;
+}
+
+/* Personalização da mensagem de erro */
+
+.ui-message {
+  margin: 0;
+  padding: 0;
+}
+
+.ui-message.ui-messages-error {
+  color: $dangerColor;
+  background: none;
+  border: 0 none;
+  font-size: 0.75em;
+}
+
+.ui-message .ui-message-icon {
+  display: none;
+}
+
+/* Personalização do menu lateral, basicamente a parte que exibe meu do perfil do usuário */
+.layout-container .layout-menu .profile {
+  height: 72px;
+}
+
+.layout-container .layout-menu .profile .profile-name {
+  max-width: 190px; /* Tamanho */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+/* Personalização do SweetAlert */
+.swal-title {
+  word-wrap: break-word;
+}
+
+.layout-container .layout-breadcrumb {
+  background: #DCDCDC;
+}
+
+.card {
+  background: #EEEEEE;
+
+  .card {
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid #cacaca;
+    padding: 5px;
+  }
+}
+
+body {
+  background: #DCDCDC;
+  word-wrap: break-word;
+
+  overflow-x: hidden;
+
+  app-template-page-public {
+    background: #fff;
+    display: block;
+    overflow: hidden;
+  }
+
+  .ui-table {
+
+    //overflow: auto;
+
+    //min-width: 1000px;
+
+    .ui-table-caption {
+      font-size: 1.375em;
+      font-weight: 400;
+    }
+    .ui-table-thead {
+
+      tr {
+        th {
+          background-color: $primaryColor;
+          border-color: $primaryColor;
+          color: #fff;
+          text-align: left;
+          font-weight: bold;
+        }
+      }
+
+      .ui-sortable-column {
+        .ui-sortable-column-icon {
+          color: #fff;
+        }
+        &:not(.ui-state-highlight):hover {
+          background-color: lighten($primaryColor, 10%);
+          color: #fff;
+          border-color: $primaryColor;
+        }
+      }
+
+      .ui-sortable-column.ui-state-highlight {
+        background-color: lighten($primaryColor, 10%);
+        color: #fff;
+        border-color: $primaryColor;
+        .fa {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .ui-dropdown .ui-dropdown-clear-icon {
+    color: $secondaryColor;
+    font-size: 1.5em;
+    right: 1.4em;
+    font-weight: bold;
+  }
+
+  .ui-paginator .ui-paginator-pages {
+    a.ui-state-active {
+      background-color: $secondaryColor;
+      color: #fff;
+
+      &:enabled:not(:focus):hover {
+        background-color: darken($secondaryColor, 10%);
+      }
+
+      &:focus {
+        outline: 0 none;
+        background-color: lighten($secondaryColor, 10%);
+      }
+    }
+  }
+
+  .ui-datepicker table {
+    min-width: auto !important;
+  }
+
+  .ng-dirty.ng-invalid, .ng-invalid.ng-touched {
+    & ~ label {
+      color: $dangerColor !important;
+
+    }
+  }
+
+  textarea, p-chips, app-p-chips-component {
+    min-width: 100%;
+    max-width: 100%;
+    border-width: 1px !important;
+
+    &.ng-invalid.ng-touched, &.ng-dirty.ng-invalid {
+      border-color: $dangerColor !important;
+    }
+
+    & ~ label {
+      top: 15px !important;
+    }
+
+    &:focus ~ label, &.ui-state-filled ~ label, &.ui-state-focus ~ label {
+      top: -0.75em !important;
+    }
+
+  }
+}
+
+body app-access-credential-form .ui-fluid .ui-inputgroup .ui-button-icon-only {
+  padding: 11px !important;
+}
+
+body app-access-credential-form .ui-button.ui-button-icon-only .fa, body .ui-datepicker-buttonpane > button.ui-button-icon-only .fa {
+  margin-left: -.5em !important;
+}
+
+.first-letter-uppercase:first-letter {
+  text-transform: capitalize;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.secondary-text {
+  color: $textSecondaryColor;
+}
+
+.ui-messages-warn .ui-messages-icon {
+  color: #8a6714 !important;
+}
+
+.ui-messages-warn {
+  color: #8a6714 !important;
+  background-color: $warningColor !important;
+  border-color: $warningColor !important;
+}
+
+.fa-spin {
+  border: 8px solid #999;
+  border-radius: 50%;
+  border-top: 8px solid #fff;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+
+  &.ui-dropdown-trigger-icon {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #838383;
+    border-top: 2px solid #fff;
+  }
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.field-card {
+  .ui-g.form-group > div {
+    padding: 1.1em .5em;
+  }
+  .ui-card-title {
+    margin-bottom: .5em;
+    font-size: 1.250em;
+    font-weight: 400;
+  }
+}
+
+p-checkbox {
+  &.ng-invalid.ng-dirty > label {
+    color: $invalidInputLabelColor;
+  }
+}
+
+.badge-primary {
+  padding: 2px 4px;
+  background-color: $secondaryColor;
+  color: #fff;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin: 0px 2px;
+}
+
+//Em análise
+.projection-status-4 {
+  $color: $analyzeColorDark;
+  $colorLight: $analyzeColor;
+
+  &.font {
+    color: $color;
+    font-weight: bold;
+  }
+
+  .ui-widget-header {
+    background-color: $colorLight !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-thead tr th, .ui-paginator {
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-summary {
+    .ui-button {
+      background-color: $color !important;
+      border-color: $color !important;
+    }
+  }
+
+  .colorbox.colorbox-projection {
+    background-color: $colorLight;
+    div:first-child {
+      background-color: $color;
+    }
+  }
+}
+
+// Pendente
+.projection-status-5 {
+  $color: $pendingColorDark;
+  $colorLight: $pendingColor;
+
+  &.font {
+    color: $color;
+    font-weight: bold;
+  }
+
+  .ui-widget-header {
+    background-color: $colorLight !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-thead tr th, .ui-paginator {
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-summary {
+    .ui-button {
+      background-color: $color !important;
+      border-color: $color !important;
+    }
+  }
+
+  .colorbox.colorbox-projection {
+    background-color: $colorLight;
+    div:first-child {
+      background-color: $color;
+    }
+  }
+}
+
+// Atrasada
+.projection-status-6 {
+  $color: $delayedColorDark;
+  $colorLight: $delayedColor;
+
+  &.font {
+    color: $color;
+    font-weight: bold;
+  }
+
+  .ui-widget-header {
+    background-color: $colorLight !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-thead tr th, .ui-paginator {
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-summary {
+    .ui-button {
+      background-color: $color !important;
+      border-color: $color !important;
+    }
+  }
+
+  .colorbox.colorbox-projection {
+    background-color: $colorLight;
+    div:first-child {
+      background-color: $color;
+    }
+  }
+}
+
+// Respondida e Respondido
+.projection-status-7, .projection-status-13 {
+  $color: $answeredColorDark;
+  $colorLight: $answeredColor;
+
+  &.font {
+    color: $color;
+    font-weight: bold;
+  }
+
+  .ui-widget-header {
+    background-color: $colorLight !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-thead tr th, .ui-paginator {
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-summary {
+    .ui-button {
+      background-color: $color !important;
+      border-color: $color !important;
+    }
+  }
+
+  .colorbox.colorbox-projection {
+    background-color: $colorLight;
+    div:first-child {
+      background-color: $color;
+    }
+  }
+}
+
+// GSQ
+.projection-status-10 {
+  $color: $gsqColorDark;
+  $colorLight: $gsqColor;
+
+  &.font {
+    color: $color;
+    font-weight: bold;
+  }
+
+  .ui-widget-header {
+    background-color: $colorLight !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-thead tr th, .ui-paginator {
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-summary {
+    .ui-button {
+      background-color: $color !important;
+      border-color: $color !important;
+    }
+  }
+
+  .colorbox.colorbox-projection {
+    background-color: $colorLight;
+    div:first-child {
+      background-color: $color;
+    }
+  }
+}
+
+// Grupo Assessor
+.projection-status-11 {
+  $color: $counselingGroupColorDark;
+  $colorLight: $counselingGroupColor;
+
+  &.font {
+    color: $color;
+    font-weight: bold;
+  }
+
+  .ui-widget-header {
+    background-color: $colorLight !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-thead tr th, .ui-paginator {
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-summary {
+    .ui-button {
+      background-color: $color !important;
+      border-color: $color !important;
+    }
+  }
+
+  .colorbox.colorbox-projection {
+    background-color: $colorLight;
+    div:first-child {
+      background-color: $color;
+    }
+  }
+}
+
+// Conselho Camex
+.projection-status-12 {
+
+  $color: $camexBoardColorDark;
+  $colorLight: $camexBoardColor;
+
+  &.font {
+    color: $color;
+    font-weight: bold;
+  }
+
+  .ui-widget-header {
+    background-color: $colorLight !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-thead tr th, .ui-paginator {
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-summary {
+    .ui-button {
+      background-color: $color !important;
+      border-color: $color !important;
+    }
+  }
+
+  .colorbox.colorbox-projection {
+    background-color: $colorLight;
+    div:first-child {
+      background-color: $color;
+    }
+  }
+}
+
+// Inerte
+.projection-status-14 {
+  $color: $inertColorDark;
+  $colorLight: $inertColor;
+
+  &.font {
+    color: $color;
+    font-weight: bold;
+  }
+
+  .ui-widget-header {
+    background-color: $colorLight !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-thead tr th, .ui-paginator {
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-summary {
+    .ui-button {
+      background-color: $color !important;
+      border-color: $color !important;
+    }
+  }
+
+  .colorbox.colorbox-projection {
+    background-color: $colorLight;
+    div:first-child {
+      background-color: $color;
+    }
+  }
+}
+
+// Em esclarecimento
+.projection-status-17 {
+  $color: $inClarificationColorDark;
+  $colorLight: $inClarificationColor;
+
+  &.font {
+    color: $color;
+    font-weight: bold;
+  }
+
+  .ui-widget-header {
+    background-color: $colorLight !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-thead tr th, .ui-paginator {
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+  .ui-table .ui-table-summary {
+    .ui-button {
+      background-color: $color !important;
+      border-color: $color !important;
+    }
+  }
+
+  .colorbox.colorbox-projection {
+    background-color: $colorLight;
+    div:first-child {
+      background-color: $color;
+    }
+  }
+}
+
+.ui-float-label > input:focus ~ label,
+.ui-float-label > input.ui-state-filled ~ label,
+.ui-float-label > .ui-inputwrapper-focus ~ label,
+.ui-float-label > .ui-inputwrapper-filled ~ label {
+  top: -.75em;
+  font-size: 12px;
+}
+
+.color-link {
+  color: #283593 !important;
+}
+
+app-template-page-public {
+  .layout-container {
+    .topbar-left {
+      z-index: 50;
+      position: relative;
+    }
+
+    #menu-button {
+      z-index: 55;
+    }
+
+    .topbar, .layout-menu {
+      z-index: 1000 !important;
+    }
+  }
+  .layout-content {
+    padding: 33px 0 0 !important;
+    min-height: calc(100vh - 380px);
+  }
+}
+
+app-template-page-public {
+  .layout-mask {
+    z-index: 999 !important;
+  }
+}
+
+div#barra-brasil {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+
+#barra-brasil .brasil-flag .link-barra {
+  -ms-word-wrap: normal;
+  word-wrap: normal;
+}
+
+app-template-topbar .topbar {
+  top: 33px;
+}
+
+.layout-container .layout-menu {
+  margin-top: 33px;
+}
+
+app-template-page-public {
+  .layout-container .layout-menu {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+
+  .layout-container {
+    .topbar-left {
+
+      h1 {
+        font-family: "Raleway";
+        margin: 0;
+        color: #fff !important;
+        font-weight: 300;
+        line-height: 18px;
+        font-size: 18px;
+
+        b {
+          font-weight: 900;
+          display: block;
+        }
+      }
+
+    }
+  }
+
+  .layout-container.menu-layout-horizontal {
+
+    .layout-menu {
+      top: 108px;
+    }
+
+    .topbar-left {
+      padding: 11px;
+      width: 370px;
+
+      h1 {
+        font-family: "Raleway";
+        margin: 0;
+        color: #fff !important;
+        font-weight: 300;
+        line-height: 29px;
+        font-size: 2.2em;
+
+        b {
+          font-weight: 900;
+          display: block;
+          font-size: 36px;
+        }
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 1025px) {
+
+  .layout-container {
+    .topbar-left {
+
+      h1 {
+        font-family: "Raleway";
+        margin: 0;
+        color: #fff !important;
+        font-weight: 300;
+        line-height: 18px;
+        font-size: 18px;
+
+        b {
+          font-weight: 900;
+          display: block;
+        }
+      }
+
+    }
+  }
+
+  .layout-container.menu-layout-horizontal {
+
+    .layout-menu {
+      top: 108px;
+    }
+
+    .topbar-left {
+      padding: 15px 20px;
+
+      h1 {
+        font-family: "Raleway";
+        margin: 0;
+        color: #fff !important;
+        font-weight: 300;
+        line-height: 25px;
+        font-size: 18px;
+
+        b {
+          font-weight: 900;
+          display: block;
+          font-size: 30px;
+        }
+      }
+    }
+
+  }
+}
+
+p-listbox {
+  .ui-widget-header {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+  }
+  .ui-listbox .ui-listbox-header .ui-chkbox .ui-chkbox-box {
+    border-color: #000;
+  }
+
+  &.content-label-all .ui-widget-header.ui-corner-all.ui-listbox-header.ui-listbox-header-w-checkbox.ng-star-inserted:after {
+    content: "Todas";
+    display: inline;
+  }
+}

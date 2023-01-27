@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 
+// @ts-ignore
 import { isString } from 'util';
 
 declare var sweetAlert: any;
@@ -75,8 +76,9 @@ export class AlertService {
           value: 'confirm',
         }
       }
-    }).then((value) => {
+    }).then((value: string) => {
       if (value === 'confirm') {
+        // @ts-ignore
         confirmCallback();
       }
     });
@@ -117,7 +119,7 @@ export class AlertService {
       $('.app-alert-justification-message').remove();
     });
 
-    $('body').on('click', '.app-alert-justification-confirm', (event) => {
+    $('body').on('click', '.app-alert-justification-confirm', () => {
 
       const input = <HTMLInputElement>document.querySelector('#app-alert-justification input');
 
@@ -125,6 +127,7 @@ export class AlertService {
         input.setAttribute('disabled', 'disabled');
         $('.app-alert-justification-confirm').attr('disabled', 'disabled');
         $('.app-alert-justification-cancel').attr('disabled', 'disabled');
+        // @ts-ignore
         confirmCallback(input.value);
       } else {
 
@@ -138,6 +141,7 @@ export class AlertService {
 
   }
 
+  // @ts-ignore
   open(config, confirmCallback = null) {
     sweetAlert(config).then(confirmCallback);
   }
@@ -184,8 +188,9 @@ export class AlertService {
       }
     });
 
-    sweetAlert(config).then((value) => {
+    sweetAlert(config).then((value: string) => {
       if (value === 'confirm') {
+        // @ts-ignore
         confirmCallback();
       }
     });
@@ -232,7 +237,7 @@ export class AlertService {
       $('.app-alert-justification-message').remove();
     });
 
-    $('body').on('click', '.app-alert-justification-confirm', (event) => {
+    $('body').on('click', '.app-alert-justification-confirm', () => {
 
       const input = <HTMLInputElement>document.querySelector('#app-alert-justification input');
 
@@ -240,6 +245,7 @@ export class AlertService {
         input.setAttribute('disabled', 'disabled');
         $('.app-alert-justification-confirm').attr('disabled', 'disabled');
         $('.app-alert-justification-cancel').attr('disabled', 'disabled');
+        // @ts-ignore
         confirmCallback(input.value);
       } else {
 

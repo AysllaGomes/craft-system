@@ -1,0 +1,480 @@
+{
+    "credential": "credencial",
+    "description": "descrição",
+    "editable": "é editavel",
+    "resourceList": "permissões",
+    "email": "e-mail",
+    "individual": "pessoa física",
+    "lastLogin": "último login",
+    "name": "nome",
+    "number": "número",
+    "organizationUnit": "órgão",
+    "password": "senha",
+    "person": "pessoa",
+    "phone": "telefone",
+    "positionHeld": "cargo",
+    "resource": "funcionalidade",
+    "role": "perfil",
+    "profile": "perfil",
+    "salt": "salt",
+    "self": "próprio",
+    "status": "situação",
+    "createdAt": "data de cadastro",
+    "updatedAt": "data de atualização",
+    "publishedAt": "data de publicação",
+    "username": "login",
+    "acronym": "sigla",
+    "content": "conteúdo",
+    "title": "título",
+    "caption": "subtítulo",
+    "featured": "destacado",
+    "female_other": "other",
+    "types": {
+        "consulta": "Consultation",
+        "questionamento": "Questioning"
+    },
+    "timeline": {
+        "historic": "Historic",
+        "comment": {
+            "add_comment": "added a comment",
+            "add_clarification": "requested a clarification",
+            "at": "at",
+            "change_status": "Status changed for",
+            "description_tooltip": "Describe your comment here",
+            "attachments": {
+                "label": "Attachments",
+                "button": "Search",
+                "title": "If necessary, please include additional documentation."
+            }
+        }
+    },
+    "clarification_answer": {
+        "questioning": {
+            "title": "Data of questioning"
+        },
+        "consultation": {
+            "title": "Data of consultation",
+            "status": {
+                "name": "In clarification"
+            },
+            "button": {
+                "answer_clarification": "Answer clarification",
+                "answer": "Answer",
+                "cancel": "Cancel",
+                "exit": "Exit"
+            },
+            "message": {
+                "success": "Success"
+            },
+            "fields": {
+                "name": "Name",
+                "date_create": "Date register of consultation",
+                "telephone": "Telephone",
+                "company_name": "Company name",
+                "cnae_division": "Sector (CNAE) of the company",
+                "consultation_area": "Consultation Area",
+                "investment_capital": {
+                    "label": "Estimated capital invested",
+                    "title": "Estimated investment of company.",
+                    "options": {
+                        "1": "Up to USD 1 million",
+                        "2": "Between USD 1 million and USD 10 million",
+                        "3": "Between USD 10 million and USD 50 million",
+                        "4": "Between USD 50 million and USD 100 million",
+                        "5": "Over USD 100 million"
+                    }
+                },
+                "employment_generate": {
+                    "label": "Estimated of employment generation",
+                    "title": "Estimated employment of company.",
+                    "options": {
+                        "1": "Up to 19 employees",
+                        "2": "Between 20 and 99 employees",
+                        "3": "Between 100 and 499 employees",
+                        "4": "Over 500 employees"
+                    }
+                },
+                "origin": "Origin",
+                "motivation": "Law, regulation and / or procedure subject to consultation"
+            }
+        }
+    },
+    "menu": {
+        "new": {
+            "fields": {
+                "englishAvailable": {
+                    "label": "Disponibilizar em inglês",
+                    "title": "Disponibilizar em inglês"
+                },
+                "title": {
+                    "label": "Título",
+                    "title": "Título"
+                },
+                "link": {
+                    "label": "Link",
+                    "title": "Link"
+                },
+                "content": {
+                    "label": "Conteúdo",
+                    "title": "Conteúdo"
+                },
+                "document": {
+                    "label": "Documento",
+                    "title": "Documento"
+                }
+            }
+        }
+    },
+    "AppBundle_Entity_PageEvent": {
+        "start": "Data - De",
+        "end": "Data - Até",
+        "addressDescription": "Endereço"
+    },
+    "AppBundle_Entity_Archive": {
+        "logicalName": "arquivo (nome lógico)",
+        "name": "arquivo"
+    },
+    "AppBundle_Entity_Phone": {
+        "number": "telefone"
+    },
+    "language": {
+        "pt": "Português",
+        "en": "Inglês"
+    },
+    "component": {
+        "pCalendar": {
+            "firstDayOfWeek": 0,
+            "dayNames": [
+                "Domingo",
+                "Segunda",
+                "Terça",
+                "Quarta",
+                "Quinta",
+                "Sexta",
+                "Sábado"
+            ],
+            "dayNamesShort": [
+                "Dom",
+                "Seg",
+                "Ter",
+                "Qua",
+                "Qui",
+                "Sex",
+                "Sáb"
+            ],
+            "dayNamesMin": [
+                "Do",
+                "Se",
+                "Te",
+                "Qu",
+                "Qu",
+                "Se",
+                "Sa"
+            ],
+            "monthNames": [
+                "Janeiro",
+                "Fevereiro",
+                "Março",
+                "Abril",
+                "Maio",
+                "Junho",
+                "Julho",
+                "Agosto",
+                "Setembro",
+                "Outubro",
+                "Novembro",
+                "Dezembro"
+            ],
+            "monthNamesShort": [
+                "Jan",
+                "Fev",
+                "Mar",
+                "Abr",
+                "Mai",
+                "Jun",
+                "Jul",
+                "Ago",
+                "Set",
+                "Out",
+                "Nov",
+                "Dez"
+            ],
+            "today": "Hoje",
+            "clear": "Limpar"
+        }
+    },
+    "event": {
+        "preview": {
+            "to": "to"
+        }
+    },
+    "homepage": {
+        "news": {
+            "title": "News",
+            "readMore": "Read more",
+            "last": "Latest news",
+            "showAll": "Show all",
+            "back": "Back"
+        },
+        "event": {
+            "title": "Events",
+            "readMore": "Read more",
+            "last": "Latest events",
+            "showAll": "Show all",
+            "noResults": "No results found",
+            "celebratedAt": "Place"
+        },
+        "menu": {
+            "back": "Voltar"
+        },
+        "consultation": {
+            "title": "Requests",
+            "description": "<p>General questions about legislation and administrative procedures related to investments</p>",
+            "button": {
+                "search": "Follow your request",
+                "create": "Submit a request"
+            },
+            "search": {
+                "title": "Follow your request",
+                "form": {
+                    "title": "Enter your protocol number",
+                    "label": "Protocol *",
+                    "button": {
+                        "search": "Search",
+                        "back": "Back"
+                    },
+                    "messageSuccess": {
+                        "title": "Success",
+                        "content": "Progress of the consultation addressed to the email (s) registered in the consultation."
+                    }
+                }
+            },
+            "form": {
+                "title": "Request Form",
+                "acfiMessage": {
+                    "bodyHeader": "<p>Dear Mr/Madam,</p><br><p>The OID provides support to investors, following up on requests and enquiries of the other Party or of investors of the other Party covered by the Cooperation and Facilitation Investment Agreements (CFIAs) in force, as established in the <a href='https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8863.htm' target='_blank'>Decree No. 8.863 of 2016.</a> <br>Currently, Brazil has CFIAs in force with the following countries:</p>",
+                    "bodyFooter": "<p>For investors from non-covered countries, please contact SE-CAMEX at <a href='mailto:oid@camex.gov.br'>oid@camex.gov.br</a> and provide the following information:</p><b><u>Request Registration</u></b> <br><dl> <dt><b>Origin</b> – Origin of investment</dt> <dt><b>Name</b> – Name of the applicant (legal representative of the company)</dt> <dt><b>E-mail</b> – contact e-mail</dt> <dt><b>Telephone</b> – contact phone</dt> <dt><b>Company Name</b></dt> <dt><b>CNPJ</b> – National Registry of Legal Entity (if the company is already established in Brazil)</dt> <dt><b>Company’s sector of activity</b> – sector of activity of the company, according to the National Register of Economic Activities (CNAE) - available in Portuguese at <a href='https://cnae.ibge.gov.br/?view=estrutura' target='_blank'>https://cnae.ibge.gov.br/?view=estrutura</a></dt> <dt><b>Consultation area</b> – administrative / tax / social security / labor / other</dt> <dt><b>Law, regulation and / or administrative procedure related to the consultation</b></dt> <dt><b>Estimated capital invested or to be invested</b> (please indicate value range)</dt> <dd>Up to USD 1 million;</dd> <dd>Between USD 1 million and USD 10 million;</dd> <dd>Between USD 10 million and USD 50 million;</dd> <dd>Between USD 50 million and USD 100 million;</dd> <dd>Over USD 100 million.</dd> <dt><b>stimated employment generation</b> (please indicate the number of employees)</dt> <dd>Up to 19 employees;</dd> <dd>Between 20 and 99 employees;</dd> <dd>Between 100 and 499 employees;</dd> <dd>Over 500 employees.</dd> <dt><b>Request</b> – Short description of the request.</dt> <dt><b>Attachments</b> – If necessary, please attach a file(s) to clarify the query (PDF).</dt> </dl> <p>When submitting the information, please include the following statement (mandatory):</p><p>“I hereby declare, for all due purposes and effects, that I am the legal representative of the interested party in this procedure and that the information provided is true, pursuant to Law No. 9,784 of 1999, Decree No. 4,732 of 2003, Decree No. 8,863 of 2016 and of CAMEX Resolution No. 7 of 2016.”</p><br><p>Regards,</p><p>Secretariat of the Ombudsman for Direct Investments - OID.</p>"
+                },
+                "fields": {
+                    "companyCountry": {
+                        "label": "Origin",
+                        "title": "Company origin/investor doing the consultation."
+                    },
+                    "requesterName": {
+                        "label": "Name",
+                        "title": "Name of responsible in the consultation."
+                    },
+                    "feedbackEmailList": {
+                        "label": "E-mail",
+                        "title": "E-mail for accompaniment of consultation."
+                    },
+                    "requesterPhoneList": {
+                        "label": "Telephone",
+                        "title": "Telephone for accompaniment of consultation."
+                    },
+                    "companyName": {
+                        "label": "Company Name",
+                        "title": "Company Name/investor"
+                    },
+                    "companyRegistrationNumber": {
+                        "label": "CNPJ",
+                        "title": "Company's CNPJ, if there."
+                    },
+                    "cnaeDivision": {
+                        "label": "Sector (CNAE) of the company",
+                        "title": "Company’s sector of activity."
+                    },
+                    "subject": {
+                        "label": "Consultation Area",
+                        "title": "Query subject."
+                    },
+                    "motivation": {
+                        "label": "Law, regulation and / or procedure subject to consultation"
+                    },
+                    "investmentRange": {
+                        "label": "Estimated capital invested",
+                        "title": "Estimated company investment."
+                    },
+                    "employmentRange": {
+                        "label": "Estimated of employment generation",
+                        "title": "Estimated of company generation."
+                    },
+                    "description": {
+                        "label": "Consultation",
+                        "title": "Describe your consultation here."
+                    },
+                    "documentList": {
+                        "label": "Attachment",
+                        "title": "If necessary, please include additional documentation.",
+                        "button": "Search..."
+                    },
+                    "confirm": {
+                        "label": "I declare, for due legal purposes and effects, that I have the legitimacy to act as an interested party in this consultation procedure and that the information provided is true, pursuant to Law No. 9,784 of 1999, Decree No. 4,732 of 2003, Decree No. 8,863 of 2016 and of CAMEX Resolution No. 7 of 2016.",
+                        "title": "Verify data veracity."
+                    },
+                    "button": {
+                        "complete": {
+                            "label": "Submit"
+                        },
+                        "cancel": {
+                            "label": "Cancel"
+                        },
+                        "back": {
+                            "label": "Back"
+                        }
+                    }
+                },
+                "msgSuccess": {
+                    "title": "Success.",
+                    "content": "To track the progress of your request / inquiry, please go to the OID website, click on the \"follow your request / inquiry\" option and inform the request / inquiry number that was forwarded to you by email."
+                }
+            }
+        },
+        "questioning": {
+            "title": "Inquiries",
+            "description": "<p>Situations related to specific cases that affect investments</p>",
+            "button": {
+                "search": "Follow your inquiry",
+                "create": "Make an inquiry"
+            },
+            "search": {
+                "title": "Follow your inquiry",
+                "form": {
+                    "title": "Enter your protocol number",
+                    "label": "Protocol *",
+                    "button": {
+                        "search": "Search",
+                        "back": "Back"
+                    },
+                    "messageSuccess": {
+                        "title": "Success",
+                        "content": "Progress of the questioning addressed to the email (s) registered in the questioning."
+                    }
+                }
+            },
+            "form": {
+                "title": "Inquiry Form",
+                "acfiMessage": {
+                    "bodyHeader": "<p>Dear Mr/Madam,</p><p>The OID provides support to investors, following up on requests and enquiries of the other Party or of investors of the other Party covered by the Cooperation and Facilitation Investment Agreements (CFIAs) in force, as established in the <a href='https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8863.htm' target='_blank'>Decreto nº 8.863, de 2016</a>.<br>Currently, Brazil has CFIAs in force with the following countries:</p>",
+                    "bodyFooter": "<p>For investors from non-covered countries, please contact SE-CAMEX at <a href='mailto:oid@camex.gov.br'>oid@camex.gov.br</a> and provide the following information:</p><b><u>Inquiry Registration</u></b> <dl> <dt><b>Origin</b> – Origin of investment</dt> <dt><b>Name</b> – Name of the applicant (legal representative of the company)</dt> <dt><b>E-mail</b> – contact e-mail</dt> <dt><b>Telephone</b> – contact phone</dt> <dt><b>Company Name</b></dt> <dt><b>CNPJ</b> – National Registry of Legal Entity (in the case of a company already established in the country)</dt> <dt><b>Company’s sector of activity</b> – sector of activity of the company, according to the National Register of Economic Activities (CNAE) - available at <a href='https://cnae.ibge.gov.br/?view=estrutura' target='_blank'>https://cnae.ibge.gov.br/?view=estrutura</a></dt> <dt><b>Consultation area</b> – administrative / tax / social security / labor</dt> <dt><b>Law, regulation and / or administrative procedure related to the query</b></dt> <dt><b>Which are the agencies or entities of the public administration (if any) involved with the query?</b></dt> <dt><b>Estimated capital invested or to be invested</b> (please indicate value range)</dt> <dd>Up to USD 1 million;</dd> <dd>Between USD 1 million and USD 10 million;</dd> <dd>Between USD 10 million and USD 50 million;</dd> <dd>Between USD 50 million and USD 100 million;</dd> <dd>Over USD 100 million.</dd> <dt><b>stimated employment generation</b> (please indicate the number of employees)</dt> <dd>Up to 19 employees;</dd> <dd>Between 20 and 99 employees;</dd> <dd>Between 100 and 499 employees;</dd> <dd>Over 500 employees.</dd> <dt><b>Inquery</b> – Short description of the query.</dt> <dt><b>What are the impacts of not satisfactorily solving the questioning?</b></dt> <dt><b>Attachments</b> – If necessary, please attach a file(s) to clarify the query (PDF).</dt> </dl> <p>When submitting the information, please include the following statement (mandatory):</p><p>“I hereby declare, for all due purposes and effects, that I am the legal representative of the interested party in this procedure and that the information provided is true, pursuant to Law No. 9,784 of 1999, Decree No. 4,732 of 2003, Decree No. 8,863 of 2016 and of CAMEX Resolution No. 7 of 2016.”</p><p>Regards,</p><p>Secretariat of the Ombudsman for Direct Investments - OID.</p>"
+                },
+                "fields": {
+                    "companyCountry": {
+                        "label": "Origin",
+                        "title": "Company origin/investor doing the questioning."
+                    },
+                    "requesterName": {
+                        "label": "Name",
+                        "title": "Name of responsible in the questioning."
+                    },
+                    "feedbackEmailList": {
+                        "label": "E-mail",
+                        "title": "E-mail for accompaniment of questioning."
+                    },
+                    "requesterPhoneList": {
+                        "label": "Telephone",
+                        "title": "Telephone for accompaniment of questioning."
+                    },
+                    "companyName": {
+                        "label": "Company Name",
+                        "title": "Company Name/investor"
+                    },
+                    "companyRegistrationNumber": {
+                        "label": "CNPJ",
+                        "title": "Company's CNPJ, if there."
+                    },
+                    "cnaeDivision": {
+                        "label": "Sector (CNAE) of the company",
+                        "title": "Company’s sector of activity."
+                    },
+                    "subject": {
+                        "label": "Questioning Area",
+                        "title": "questioning subject."
+                    },
+                    "motivation": {
+                        "label": "Law, regulation and / or procedure subject to questioning"
+                    },
+                    "suggestedOrganizationalUnitList": {
+                        "label": "Which bodies or entities of the public administration involved in the questioning",
+                        "title": "Organ that influences the questioning."
+                    },
+                    "investmentRange": {
+                        "label": "Estimated capital invested",
+                        "title": "Estimated company investment."
+                    },
+                    "employmentRange": {
+                        "label": "Estimated of employment generation",
+                        "title": "Estimated of company generation."
+                    },
+                    "description": {
+                        "label": "Questioning",
+                        "title": "Describe your questioning here."
+                    },
+                    "impactDescription": {
+                        "label": "What are the impacts of not satisfactorily solving the questioning?",
+                        "title": "Describe here the consequences of not answering the question."
+                    },
+                    "documentList": {
+                        "label": "Attachment",
+                        "title": "If necessary, please include additional documentation.",
+                        "button": "Search..."
+                    },
+                    "confirm": {
+                        "label": "I declare, for due legal purposes and effects, that I have the legitimacy to act as an interested party in this consultation procedure and that the information provided is true, pursuant to Law No. 9,784 of 1999, Decree No. 4,732 of 2003, Decree No. 8,863 of 2016 and of CAMEX Resolution No. 7 of 2016.",
+                        "title": "Verify data veracity."
+                    },
+                    "button": {
+                        "complete": {
+                            "label": "Submit"
+                        },
+                        "cancel": {
+                            "label": "Cancel"
+                        },
+                        "back": {
+                            "label": "Back"
+                        }
+                    }
+                },
+                "msgSuccess": {
+                    "title": "Success.",
+                    "content": "To track the progress of your request / inquiry, please go to the OID website, click on the \"follow your request / inquiry\" option and inform the request / inquiry number that was forwarded to you by email."
+                }
+            }
+        },
+        "expertiseAreas": {
+            "title": "DIRECT INVESTMENTS OMBUDSMAN",
+            "description": {
+                "1": "<p>The Cooperation and Facilitation Investment Agreements (CFIAs) is the new model of investment agreement that Brazil has created, negotiated and signed bilaterally/regionally and requires, among other provisions, the creation of a National Focal Point/ Direct Investments Ombudsman (OID).</p>",
+                "2": "<p>The OID is responsible for receiving requests and inquiries about matters related to investments, which should be answered jointly with government agencies involved in each case (Focal Points Network). This will allow that the demands received from the investors from countries with which Brazil has CFIA in force to be centralized in a single body, which should respond in a timely manner to the demands requested.</p>",
+                "3": "<p>In Brazil, the Foreign Trade Board (CAMEX) is in charge of the Ombudsman, once it is the body of the Governing Council of the Presidency of the Republic in charge of matters regarding foreign trade, services and investments. Therefore, the Decree No. 8.863, dated September 28, 2016 established the creation, structure and attributions of the Direct Investments Ombudsman (OID) within CAMEX.</p>",
+                "4": "<p>The OID integrates the structure of the Executive Secretariat, under the supervision of the CAMEX Council and is comprised of:</p>",
+                "5": "<p>I - the Executive Secretary of CAMEX, who represents it institutionally and coordinates its activities;</p>",
+                "6": "<p>II - a Secretariat, which will use the structure of the Executive Secretariat of CAMEX and will count on employees/government officials specialized in subjects related to investment in order to support the Executive Secretary of CAMEX in carrying out his functions under the OID;</p>",
+                "7": "<p>III - an Advisory Group, composed of representatives of the ministries that constitute CAMEX; and</p>",
+                "8": "<p>IV - a Network of Focal Points comprised of focal points of the bodies and entities of the public administration defined by the OID internal regulation, as well as those indicated by the Federation Units.</p>",
+                "9": "<p>The agencies and entities that be part of the Network of Focal Points will designate their staff as focal points in order to work together with the OID to provide information on investments, answer requests and seek to solve inquiries of investors within their area of competence, among other activities.</p>",
+                "10": "<p>The Advisory Group will accompany and guide the work of the OID, including in the drafting and eventual revisions of its internal regulation, and will be chaired by the Executive Secretary of CAMEX.</p>",
+                "11": "<p>Among the OID's competencies, the following stand out: supporting and guiding investors; clarifying doubts; receiving requires, and recommending solutions to the inquiries presented; seeking to solve the grievances through cooperation with the government agencies and relevant government entities; and proposing improvements in the legislation or in the procedures to the pertinent government agencies, whenever a solution of a grievance so recommends it.</p>",
+                "12": "<p>The OID shall receive inquiries from national investors related to their investments made in countries with which the Federative Republic of Brazil has CFIA in force, through the mechanisms provided in such agreements.</p>",
+                "13": "<p><b>Legislation:</b></p>",
+                "14": "<p><a href='https://www.planalto.gov.br/ccivil_03/decreto/2003/D4732.htm' target='_blank'>DECREE No. 4,732, June 10, 2003</a> - Art. 5, § 10, XIII - Establishes the competence of the Executive Secretariat of CAMEX to perform the functions of the National Focal Point - Direct Investments Ombudsman.</p>",
+                "15": "<p><a href='https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8863.htm' target='_blank'>DECREE No. 8.863, September 28, 2016</a> - Provides for the creation, structure and attributions of the Ombudsman for Direct Investments.</p>",
+                "16": "<p><a href='http://www.camex.gov.br/ombudsman-de-investimentos-diretos-oid?id=1792' target='_blank'>CAMEX Resolution No. 12, 2017</a> - Approves the rules of the Direct Investments Ombudsman - OID.</p>"
+            },
+            "areas": {
+                "administrative": "Administrative",
+                "reporting": "Reporting",
+                "financing": "Financing",
+                "landholding": "Landholding",
+                "infrastructure": "Infrastructure"
+            }
+        }
+    },
+    "publicFooter": {
+        "organizationUnitList": "Network of Focal Points:",
+        "address": "Esplanada dos Ministérios, bloco J, CEP 70.053-900, Brasília - DF"
+    },
+    "system": {
+        "logo": "<h1>Direct Investments<b>Ombudsman</b></h1>"
+    }
+}

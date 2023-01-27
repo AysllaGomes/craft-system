@@ -1,0 +1,43 @@
+#barra-brasil div, #barra-brasil a, #barra-brasil ul, #barra-brasil li, #barra-brasil span {
+    font-size: 100% !important;
+    line-height: 19px !important;
+}
+
+#barra-brasil .list-item {
+    line-height: 32px !important;
+}
+
+.header-saver {
+    margin-top: 118px;
+}
+
+#barra-brasil .acesso-info {
+    line-height: 32px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 40px !important;
+    line-height: initial !important;
+}
+
+p, span, b, a, strong, small {
+    font-size: 18px !important;
+    line-height: initial !important;
+}
+
+body .ui-button span, body .ui-datepicker-buttonpane > button span {
+    font-size: 22px !important;
+}
+
+.layout-container .layout-main {
+    padding: 80px 0 0;
+}
+
+table tr, table th {
+    font-size: 18px !important;
+    line-height: initial !important;
+}
+
+.layout-container .layout-breadcrumb .layout-breadcrumb-options a i {
+    margin-top: 5px;
+}

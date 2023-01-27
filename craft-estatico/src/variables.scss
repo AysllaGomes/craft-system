@@ -1,0 +1,47 @@
+@import 'assets/sass/variables';
+
+$primaryColor: #283593;
+$purpleColor: #3F51B5;
+$secondaryColor: #E91E63;
+$warningColor: #ffbb18;
+$dangerColor: #e62a10;
+
+$defaultStatusColor: #424242;
+$defaultStatusColorDark: #000;
+$defaultStatusFontColor: #fff;
+
+$analyzeColorDark: #0277BD;
+$analyzeColor: lighten($analyzeColorDark, 20%);
+$analyzeFontColor: #000;
+
+$pendingColorDark: #b17d00;
+$pendingColor: lighten($pendingColorDark, 20%);
+$pendingFontColor: #000;
+
+$delayedColorDark: #b6210d;
+$delayedColor: lighten($delayedColorDark, 20%);
+$delayedFontColor: $defaultStatusFontColor;
+
+$answeredColorDark: #2E7D32;
+$answeredColor: lighten($answeredColorDark, 20%);
+$answeredFontColor: #000;
+
+$gsqColorDark: #607d8b;
+$gsqColor: lighten($gsqColorDark, 20%);
+$gsqFontColor: #000;
+
+$counselingGroupColorDark: #009688;
+$counselingGroupColor: lighten($counselingGroupColorDark, 20%);
+$counselingGroupFontColor: #000;
+
+$camexBoardColorDark: #673AB7;
+$camexBoardColor: lighten($camexBoardColorDark, 20%);
+$camexBoardFontColor: #000;
+
+$inertColorDark: #777;
+$inertColor: lighten($inertColorDark, 20%);
+$inertFontColor: #000;
+
+$inClarificationColorDark: $defaultStatusColor;
+$inClarificationColor: lighten($inClarificationColorDark, 20%);
+$inClarificationFontColor: $defaultStatusFontColor;

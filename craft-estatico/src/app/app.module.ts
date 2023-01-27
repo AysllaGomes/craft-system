@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 import { AppRoutingModule } from './app-routing.module';
+import { TemplateModule } from './template/template.module';
 
 import { HttpExceptionInterceptor } from './shared/interceptors/http-exception.interceptor';
 
@@ -14,7 +15,8 @@ import { HttpExceptionInterceptor } from './shared/interceptors/http-exception.i
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TemplateModule
   ],
   providers: [
     {

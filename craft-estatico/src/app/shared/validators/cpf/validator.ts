@@ -58,7 +58,7 @@ function isValidCPF(cpf: string): boolean {
   return rev == parseInt(cpf.charAt(10));
 }
 
-export const cpf: ValidatorFn = (control: AbstractControl): { [key: string]: boolean } => {
+export const cpf: ValidatorFn = (control: AbstractControl): { [key: string]: boolean } | null => {
   if (
     isPresent(Validators.required(control))
   ) { return null; }

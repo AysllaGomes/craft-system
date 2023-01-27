@@ -1,0 +1,480 @@
+{
+    "credential": "credencial",
+    "description": "descrição",
+    "editable": "é editavel",
+    "resourceList": "permissões",
+    "email": "e-mail",
+    "individual": "pessoa física",
+    "lastLogin": "último login",
+    "name": "nome",
+    "number": "número",
+    "organizationUnit": "órgão",
+    "password": "senha",
+    "person": "pessoa",
+    "phone": "telefone",
+    "positionHeld": "cargo",
+    "resource": "funcionalidade",
+    "role": "perfil",
+    "profile": "perfil",
+    "salt": "salt",
+    "self": "próprio",
+    "status": "situação",
+    "createdAt": "data de cadastro",
+    "updatedAt": "data de atualização",
+    "publishedAt": "data de publicação",
+    "username": "login",
+    "acronym": "sigla",
+    "content": "conteúdo",
+    "title": "título",
+    "caption": "subtítulo",
+    "featured": "destacado",
+    "female_other": "outra",
+    "types": {
+        "consulta": "Consulta",
+        "questionamento": "Questionamento"
+    },
+    "timeline": {
+        "historic": "Histórico",
+        "comment": {
+            "add_comment": "adicionou um comentário",
+            "add_clarification": "solicitou um esclarecimento",
+            "at": "às",
+            "change_status": "Status alterado para",
+            "description_tooltip": "Descreva aqui seu comentário",
+            "attachments": {
+                "label": "Anexos",
+                "button": "Procurar",
+                "title": "Se necessário, inclua aqui documentação complementar."
+            }
+        }
+    },
+    "clarification_answer": {
+        "questioning": {
+            "title": "Dados do questionamento"
+        },
+        "consultation": {
+            "title": "Dados da consulta",
+            "status": {
+                "name": "Em esclarecimento"
+            },
+            "button": {
+                "answer_clarification": "Responder esclarecimento",
+                "answer": "Responder",
+                "cancel": "Cancelar",
+                "exit": "Sair"
+            },
+            "message": {
+                "success": "Sucesso"
+            },
+            "fields": {
+                "name": "Nome",
+                "date_create": "Data do cadastro da consulta",
+                "telephone": "Telefone",
+                "company_name": "Nome da empresa",
+                "cnae_division": "Setor (CNAE) da empresa",
+                "consultation_area": "Área da consulta",
+                "investment_capital": {
+                    "label": "Estimativa de capital investido",
+                    "title": "Estimativa de investimento da empresa.",
+                    "options": {
+                        "1": "Até USD 1 milhão",
+                        "2": "Entre USD 1 milhão e USD 10 milhões",
+                        "3": "Entre USD 10 milhões e USD 50 milhões",
+                        "4": "Entre USD 50 milhões e USD 100 milhões",
+                        "5": "Acima de USD 100 milhões"
+                    }
+                },
+                "employment_generate": {
+                    "label": "Estimativa de geração de emprego",
+                    "title": "Estimativa de geração da empresa.",
+                    "options": {
+                        "1": "Até 19 empregados",
+                        "2": "Entre 20 a 99 empregados",
+                        "3": "Entre 100 a 499 empregados",
+                        "4": "Acima de 500 empregados"
+                    }
+                },
+                "origin": "Origem",
+                "motivation": "Lei, regulamento e/ou procedimento objeto da consulta"
+            }
+        }
+    },
+    "menu": {
+        "new": {
+            "fields": {
+                "englishAvailable": {
+                    "label": "Disponibilizar em inglês",
+                    "title": "Disponibilizar em inglês"
+                },
+                "title": {
+                    "label": "Título",
+                    "title": "Título"
+                },
+                "link": {
+                    "label": "Link",
+                    "title": "Link"
+                },
+                "content": {
+                    "label": "Conteúdo",
+                    "title": "Conteúdo"
+                },
+                "document": {
+                    "label": "Documento",
+                    "title": "Documento"
+                }
+            }
+        }
+    },
+    "AppBundle_Entity_PageEvent": {
+        "start": "Data - De",
+        "end": "Data - Até",
+        "addressDescription": "Endereço"
+    },
+    "AppBundle_Entity_Archive": {
+        "logicalName": "arquivo (nome lógico)",
+        "name": "arquivo"
+    },
+    "AppBundle_Entity_Phone": {
+        "number": "telefone"
+    },
+    "language": {
+        "pt": "Português",
+        "en": "Inglês"
+    },
+    "component": {
+        "pCalendar": {
+            "firstDayOfWeek": 0,
+            "dayNames": [
+                "Domingo",
+                "Segunda",
+                "Terça",
+                "Quarta",
+                "Quinta",
+                "Sexta",
+                "Sábado"
+            ],
+            "dayNamesShort": [
+                "Dom",
+                "Seg",
+                "Ter",
+                "Qua",
+                "Qui",
+                "Sex",
+                "Sáb"
+            ],
+            "dayNamesMin": [
+                "Do",
+                "Se",
+                "Te",
+                "Qu",
+                "Qu",
+                "Se",
+                "Sa"
+            ],
+            "monthNames": [
+                "Janeiro",
+                "Fevereiro",
+                "Março",
+                "Abril",
+                "Maio",
+                "Junho",
+                "Julho",
+                "Agosto",
+                "Setembro",
+                "Outubro",
+                "Novembro",
+                "Dezembro"
+            ],
+            "monthNamesShort": [
+                "Jan",
+                "Fev",
+                "Mar",
+                "Abr",
+                "Mai",
+                "Jun",
+                "Jul",
+                "Ago",
+                "Set",
+                "Out",
+                "Nov",
+                "Dez"
+            ],
+            "today": "Hoje",
+            "clear": "Limpar"
+        }
+    },
+    "event": {
+        "preview": {
+            "to": "até"
+        }
+    },
+    "homepage": {
+        "news": {
+            "title": "Notícias",
+            "readMore": "Ler mais",
+            "last": "Últimas notícias",
+            "showAll": "Ver todas",
+            "back": "Voltar"
+        },
+        "event": {
+            "title": "Eventos",
+            "readMore": "Ler mais",
+            "last": "Últimos eventos",
+            "showAll": "Ver todos",
+            "noResults": "Não há eventos cadastrados",
+            "celebratedAt": "Local"
+        },
+        "menu": {
+            "back": "Voltar"
+        },
+        "consultation": {
+            "title": "Consulta",
+            "description": "<p>Consultas são dúvidas gerais sobre a legislação e procedimentos administrativos relacionados aos investimentos</p>",
+            "button": {
+                "search": "Consulta de protocolo",
+                "create": "Solicitar consulta"
+            },
+            "search": {
+                "title": "Consulta de protocolo",
+                "form": {
+                    "title": "Insira seu número de protocolo",
+                    "label": "Protocolo *",
+                    "button": {
+                        "search": "Pesquisar",
+                        "back": "Voltar"
+                    },
+                    "messageSuccess": {
+                        "title": "Sucesso",
+                        "content": "Andamento da consulta encaminhado ao(s) e-mail(s) cadastrado(s) na consulta."
+                    }
+                }
+            },
+            "form": {
+                "title": "Cadastro de consulta",
+                "acfiMessage": {
+                    "bodyHeader": "<p>Prezado(a) Senhor(a),</p><p>O OID oferece apoio a investidores, atende consultas e busca soluções para consultas/questionamentos abrangidos pelos Acordos de Cooperação e Facilitação de Investimentos (ACFIs) em vigor, conforme estabelecido no <a href='https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8863.htm' target='_blank'>Decreto nº 8.863, de 2016</a>.<br>Atualmente, o Brasil possui ACFIs em vigor com os seguintes países:</p>",
+                    "bodyFooter": "<p>Para os investidores de países não cobertos, favor entrar em contato com a SE-CAMEX pelo e-mail <a href='mailto:oid@camex.gov.br'>oid@camex.gov.br</a> e informar os seguintes dados:</p> <b><u>Cadastro da Consulta</u></b><br><dl> <dt><b>Origem</b> – Origem do investimento</dt> <dt><b>Nome</b> – Nome do requisitante (representante legal da empresa)</dt> <dt><b>E-mail</b> – e-mail de contato</dt> <dt><b>Telefone</b> – telefone de contato</dt> <dt><b>Nome da empresa</b></dt> <dt><b>CNPJ</b> – Cadastro Nacional de Pessoa Jurídica (no caso de empresa já estabelecida no país)</dt> <dt><b>Setor da empresa</b> – setor de atuação da empresa, conforme o Cadastro Nacional de Atividades Econômicas (CNAE) – disponível em <a href='https://cnae.ibge.gov.br/?view=estrutura' target='_blank'>https://cnae.ibge.gov.br/?view=estrutura</a></dt> <dt><b>Área da consulta</b> – administrativa/tributária/previdenciária/trabalhista/outra</dt> <dt><b>Lei, regulamento e/ou procedimento objeto da consulta</b></dt> <dt><b>Estimativa de capital investido ou a investir</b> (indicar a faixa de valor)</dt> <dd>Até USD 1 milhão;</dd> <dd>Entre USD 1 milhão e USD 10 milhões;</dd> <dd>Entre USD 10 milhões e USD 50 milhões;</dd> <dd>Entre USD 50 milhões e USD 100 milhões;</dd> <dd>Acima de USD 100 milhões.</dd> <dt><b>Estimativa de geração de emprego</b> (indicar a faixa de nº de empregados)</dt> <dd>Até 19 empregados;</dd> <dd>Entre 20 e 99 empregados;</dd> <dd>Entre 100 a 499 empregados;</dd> <dd>Acima de 500 empregados.</dd> <dt><b>Consulta</b> – Descrição sucinta da consulta.</dt> <dt><b>Anexos</b> – Caso julgue necessário, favor inserir arquivo(s) para esclarecimento da consulta (PDF).</dt> </dl> <p>Ao enviar as informações, por favor incluir a seguinte declaração (obrigatório):</p><p>“Declaro, para os devidos fins e efeitos legais, ter legitimidade para atuar como interessado neste procedimento de consulta/questionamento e que os dados informados são verídicos, nos termos da Lei nº 9.784, de 1999, do Decreto nº 4.732, de 2003, do Decreto nº 8.863, de 2016 e da Resolução CAMEX nº 7, de 2016.”</p><p>Atenciosamente,</p><p>Gestores do Sistema Ombudsman Investimentos Diretos – OID.</p>"
+                },
+                "fields": {
+                    "companyCountry": {
+                        "label": "Origem",
+                        "title": "Origem da empresa/investidor que faz a consulta."
+                    },
+                    "requesterName": {
+                        "label": "Nome",
+                        "title": "Nome do responsável pela consulta."
+                    },
+                    "feedbackEmailList": {
+                        "label": "E-mail",
+                        "title": "E-mail para acompanhamento da consulta."
+                    },
+                    "requesterPhoneList": {
+                        "label": "Telefone",
+                        "title": "Telefone para acompanhamento da consulta."
+                    },
+                    "companyName": {
+                        "label": "Nome da empresa",
+                        "title": "Nome da empresa/investidor."
+                    },
+                    "companyRegistrationNumber": {
+                        "label": "CNPJ",
+                        "title": "CNPJ da empresa, se houver."
+                    },
+                    "cnaeDivision": {
+                        "label": "Setor (CNAE) da empresa",
+                        "title": "Setor da atividade da empresa."
+                    },
+                    "subject": {
+                        "label": "Área da consulta",
+                        "title": "Assunto da consulta."
+                    },
+                    "motivation": {
+                        "label": "Lei, regulamento e/ou procedimento objeto da consulta"
+                    },
+                    "investmentRange": {
+                        "label": "Estimativa de capital investido",
+                        "title": "Estimativa de investimento da empresa."
+                    },
+                    "employmentRange": {
+                        "label": "Estimativa de geração de emprego",
+                        "title": "Estimativa de geração da empresa."
+                    },
+                    "description": {
+                        "label": "Consulta",
+                        "title": "Descreva aqui sua consulta."
+                    },
+                    "documentList": {
+                        "label": "Anexos",
+                        "title": "Se necessário, inclua aqui documentação complementar.",
+                        "button": "Procurar..."
+                    },
+                    "confirm": {
+                        "label": "Declaro, para os devidos fins e efeitos legais, ter legitimidade para atuar como interessado neste procedimento de consulta/questionamento e que os dados informados são verídicos, nos termos da Lei nº 9.784, de 1999, do Decreto nº 4.732, de 2003, do Decreto nº 8.863, de 2016 e da Resolução CAMEX nº 7, de 2016.",
+                        "title": "Confirmar veracidade dos dados."
+                    },
+                    "button": {
+                        "complete": {
+                            "label": "Concluir"
+                        },
+                        "cancel": {
+                            "label": "Cancelar"
+                        },
+                        "back": {
+                            "label": "Voltar"
+                        }
+                    }
+                },
+                "msgSuccess": {
+                    "title": "Sucesso.",
+                    "content": "Seu protocolo foi enviado por e-mail. Para verificar o andamento de sua consulta basta acessar o site do OID na opção acompanhar consulta."
+                }
+            }
+        },
+        "questioning": {
+            "title": "Questionamento",
+            "description": "<p>Questionamentos são situações relacionadas ao caso concreto que estejam afetando os investimentos</p>",
+            "button": {
+                "search": "Consulta de protocolo",
+                "create": "Solicitar questionamento"
+            },
+            "search": {
+                "title": "Consulta de protocolo",
+                "form": {
+                    "title": "Insira seu número de protocolo",
+                    "label": "Protocolo *",
+                    "button": {
+                        "search": "Pesquisar",
+                        "back": "Voltar"
+                    },
+                    "messageSuccess": {
+                        "title": "Sucesso",
+                        "content": "Andamento do questionamento encaminhado ao(s) e-mail(s) cadastrado(s) no questionamento."
+                    }
+                }
+            },
+            "form": {
+                "title": "Cadastro de Questionamento",
+                "acfiMessage": {
+                    "bodyHeader": "<p>Prezado(a) Senhor(a),</p><p>O OID oferece apoio a investidores, atende consultas e busca soluções para consultas/questionamentos abrangidos pelos Acordos de Cooperação e Facilitação de Investimentos (ACFIs) em vigor, conforme estabelecido no <a href='https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8863.htm' target='_blank'>Decreto nº 8.863, de 2016</a>.<br>Atualmente, o Brasil possui ACFIs em vigor com os seguintes países:</p>",
+                    "bodyFooter": "<p>Para os investidores de países não cobertos, favor entrar em contato com a SE-CAMEX pelo e-mail <a href='mailto:oid@camex.gov.br'>oid@camex.gov.br</a> e informar os seguintes dados:</p><b><u>Cadastro do Questionamento</u></b> <dl> <dt><b>Origem</b> – Origem do investimento</dt> <dt><b>Nome</b> – Nome do requisitante (representante legal da empresa)</dt> <dt><b>E-mail</b> – e-mail de contato</dt> <dt><b>Telefone</b> – telefone de contato</dt> <dt><b>Nome da empresa</b></dt> <dt><b>CNPJ</b> – Cadastro Nacional de Pessoa Jurídica (no caso de empresa já estabelecida no país)</dt> <dt><b>Setor da empresa</b> – setor de atuação da empresa, conforme o Cadastro Nacional de Atividades Econômicas (CNAE) – disponível em <a href='https://cnae.ibge.gov.br/?view=estrutura' target='_blank'>https://cnae.ibge.gov.br/?view=estrutura</a></dt> <dt><b>Área do questionamento</b> – administrativa/tributária/previdenciária/trabalhista</dt> <dt><b>Lei, regulamento e/ou procedimento objeto do questionamento</b></dt> <dt><b>Quais são os órgãos ou entidades da administração pública (se houver) envolvidos no questionamento?</b></dt> <dt><b>Estimativa de capital investido ou a investir</b> (indicar a faixa de valor)</dt> <dd>Até USD 1 milhão;</dd> <dd>Entre USD 1 milhão e USD 10 milhões;</dd> <dd>Entre USD 10 milhões e USD 50 milhões;</dd> <dd>Entre USD 50 milhões e USD 100 milhões;</dd> <dd>Acima de USD 100 milhões.</dd> <dt><b>Estimativa de geração de emprego</b> (indicar a faixa de nº de empregados)</dt> <dd>Até 19 empregados;</dd> <dd>Entre 20 e 99 empregados;</dd> <dd>Entre 100 a 499 empregados;</dd> <dd>Acima de 500 empregados.</dd> <dt><b>Questionamento</b> – Descrição sucinta do questionamento.</dt> <dt><b>Quais são os impactos da não resolução satisfatória do questionamento?</b></dt> <dt><b>Anexos</b> – Caso julgue necessário, favor inserir arquivo(s) para esclarecimento da consulta (PDF).</dt> </dl> <p>Ao enviar as informações, por favor incluir a seguinte declaração (obrigatório):</p><p>“Declaro, para os devidos fins e efeitos legais, ter legitimidade para atuar como interessado neste procedimento de consulta/questionamento e que os dados informados são verídicos, nos termos da Lei nº 9.784, de 1999, do Decreto nº 4.732, de 2003, do Decreto nº 8.863, de 2016 e da Resolução CAMEX nº 7, de 2016.”</p><p>Atenciosamente,</p><p>Secretaria do Ombudsman de Investimentos Diretos – OID.</p>"
+                },
+                "fields": {
+                    "companyCountry": {
+                        "label": "Origem",
+                        "title": "Origem da empresa/investidor que faz o questionamento."
+                    },
+                    "requesterName": {
+                        "label": "Nome",
+                        "title": "Nome do responsável pelo questionamento."
+                    },
+                    "feedbackEmailList": {
+                        "label": "E-mail",
+                        "title": "E-mail para acompanhamento do questionamento."
+                    },
+                    "requesterPhoneList": {
+                        "label": "Telefone",
+                        "title": "Telefone para acompanhamento do questionamento."
+                    },
+                    "companyName": {
+                        "label": "Nome da empresa",
+                        "title": "Nome da empresa/investidor."
+                    },
+                    "companyRegistrationNumber": {
+                        "label": "CNPJ",
+                        "title": "CNPJ da empresa, se houver."
+                    },
+                    "cnaeDivision": {
+                        "label": "Setor (CNAE) da empresa",
+                        "title": "Setor da atividade da empresa."
+                    },
+                    "subject": {
+                        "label": "Área do Questionamento",
+                        "title": "Assunto do questionamento."
+                    },
+                    "motivation": {
+                        "label": "Lei, regulamento e/ou procedimento objeto do questionamento"
+                    },
+                    "suggestedOrganizationalUnitList": {
+                        "label": "Quais os órgãos ou entidades da administração pública envolvidos no questionamento",
+                        "title": "Órgão que influência no questionamento."
+                    },
+                    "investmentRange": {
+                        "label": "Estimativa de capital investido",
+                        "title": "Estimativa de investimento da empresa."
+                    },
+                    "employmentRange": {
+                        "label": "Estimativa de geração de emprego",
+                        "title": "Estimativa de geração da empresa."
+                    },
+                    "description": {
+                        "label": "Questionamento",
+                        "title": "Descreva aqui seu questionamento."
+                    },
+                    "impactDescription": {
+                        "label": "Quais os impactos da não resolução satisfatória do questionamento?",
+                        "title": "Descreva aqui as consequências do não atendimento do questionamento."
+                    },
+                    "documentList": {
+                        "label": "Anexos",
+                        "title": "Se necessário, inclua aqui documentação complementar.",
+                        "button": "Procurar..."
+                    },
+                    "confirm": {
+                        "label": "Declaro, para os devidos fins e efeitos legais, ter legitimidade para atuar como interessado neste procedimento de consulta/questionamento e que os dados informados são verídicos, nos termos da Lei nº 9.784, de 1999, do Decreto nº 4.732, de 2003, do Decreto nº 8.863, de 2016 e da Resolução CAMEX nº 7, de 2016.",
+                        "title": "Confirmar veracidade dos dados."
+                    },
+                    "button": {
+                        "complete": {
+                            "label": "Concluir"
+                        },
+                        "cancel": {
+                            "label": "Cancelar"
+                        },
+                        "back": {
+                            "label": "Voltar"
+                        }
+                    }
+                },
+                "msgSuccess": {
+                    "title": "Sucesso.",
+                    "content": "Seu protocolo foi enviado por e-mail. Para verificar o andamento de seu questionamento basta acessar o site do OID na opção acompanhar questionamento."
+                }
+            }
+        },
+        "expertiseAreas": {
+            "title": "OMBUDSMAN DE INVESTIMENTOS DIRETOS – OID",
+            "description": {
+                "1": "<p>O Acordo de Cooperação e Facilitação de Investimentos (ACFI) é o novo modelo de acordo que o Brasil criou e tem negociado e firmado bilateralmente e que exige, entre outros dispositivos, a criação de um Ponto Focal Nacional, Ombudsman de Investimentos Diretos (OID), instituído no âmbito da CAMEX.</p>",
+                "2": "<p>O OID tem por responsabilidade receber consultas e questionamentos sobre matérias relacionadas a investimentos, que deverão ser respondidos em conjunto com órgãos governamentais envolvidos em cada caso (Rede de Pontos Focais). Isso permitirá que as consultas e os questionamentos dos investidores de países com que o Brasil tenha ACFI em vigor sejam centralizados em um único órgão, que deverá responder tempestivamente às demandas solicitadas.</p>",
+                "3": "<p>Parte integral da estrutura da Secretaria-Executiva, sob a supervisão do Conselho de Ministros da CAMEX, o OID é composto:</p>",
+                "4": "<p>I - pela Secretária-Executiva da CAMEX, que o representará institucionalmente e coordenará suas atividades;</p>",
+                "5": "<p>II - por uma Secretaria, que se valerá da estrutura da Secretaria-Executiva da CAMEX e contará com funcionários e servidores especializados em temas afins a investimentos para apoio à Secretária-Executiva da CAMEX no desempenho de suas funções no âmbito do OID;</p>",
+                "6": "<p>III - por um Grupo Assessor, composto por representantes dos Ministérios que constituem a CAMEX; e</p>",
+                "7": "<p>IV - pela Rede de Pontos Focais, integrada por pontos focais dos órgãos e das entidades da Administração Pública a serem definidos pelo Regimento Interno do OID, bem como aqueles indicados por Unidades da Federação.</p>",
+                "8": "<p>Os órgãos e as entidades integrantes da Rede de Pontos Focais designarão servidor de seus quadros como ponto focal, a fim de atuar em conjunto com o OID, com vistas a oferecer informações sobre investimentos, sanar dúvidas e buscar soluções para os questionamentos dos investidores, em sua área de competência, entre outras atividades a serem definidas no Regimento Interno do OID.</p>",
+                "9": "<p>O Grupo Assessor é presidido pela Secretária-Executiva da CAMEX e acompanhará e orientará os trabalhos do OID, inclusive na elaboração e nas eventuais revisões de seu Regimento Interno.</p>",
+                "10": "<p>Entre as competências do OID, destacam-se: apoiar e orientar os investidores, esclarecendo dúvidas, recebendo consultas e recomendando soluções para os questionamentos apresentados; e propor aos órgãos e agências de governo pertinentes melhorias na legislação ou nos procedimentos adotados, nos casos em que a solução de um questionamento assim o recomende.</p>",
+                "11": "<p>O OID poderá também receber consultas e questionamentos dos investidores nacionais com relação aos seus investimentos nos países com os quais a República Federativa do Brasil tenha ACFI em vigor, aos quais dará seguimento por meio dos mecanismos previstos em tais acordos.</p>",
+                "12": "<p><b>Legislação:</b></p>",
+                "13": "<p><a href='https://www.planalto.gov.br/ccivil_03/decreto/2003/D4732.htm' target='_blank'>Decreto nº 4.732, de 2003</a> – O artigo 5º, parágrafo 10, inciso XIII estabelece a competência da Secretaria-Executiva da CAMEX para desempenhar as funções de Ponto Focal Nacional - <b>Ombudsman</b> de Investimentos Diretos.</p>",
+                "14": "<p><a href='https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8863.htm' target='_blank'>Decreto nº 8.863, de 2016</a> - Dispõe sobre a criação, a estrutura e as atribuições do <b>Ombudsman</b> de Investimentos Diretos e dá outras providências.</p>",
+                "15": "<p><a href='http://www.camex.gov.br/ombudsman-de-investimentos-diretos-oid?id=1792' target='_blank'>Resolução CAMEX nº 12, de 2017</a> - Aprova as regras regimentais do Ombudsman de Investimentos Diretos – OID.</p>",
+                "16": ""
+            },
+            "areas": {
+                "administrative": "Administrativa",
+                "reporting": "Contábil",
+                "financing": "Financeira",
+                "landholding": "Fundiária",
+                "infrastructure": "Infraestrutura"
+            }
+        }
+    },
+    "publicFooter": {
+        "organizationUnitList": " Redes de pontos focais:",
+        "address": "Esplanada dos Ministérios, bloco J, CEP 70.053-900, Brasília - DF"
+    },
+    "system": {
+        "logo": "<h1><b>Ombudsman</b> de Investimentos Diretos</h1>"
+    }
+}

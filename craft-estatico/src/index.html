@@ -1,13 +1,42 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="utf-8">
-  <title>CraftEstatico</title>
+  <title>Craft</title>
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="theme-color" content="#673ab7">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Layout CSS -->
+  <link id="theme-css" rel="stylesheet" type="text/css" href="assets/theme/theme-indigo.css">
+  <link id="layout-css" rel="stylesheet" type="text/css" href="assets/layout/css/layout-indigo.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Acessibility -->
+  <link id="contrast-css" rel="stylesheet" type="text/css" href="">
+  <link id="fontsize-css" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>
+    <div class="splash-screen">
+      <div class="splash-loader-container">
+        <svg class="splash-loader" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+          <circle
+            class="splash-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30">
+          </circle>
+        </svg>
+      </div>
+    </div>
+  </app-root>
+
+  <script defer="defer" async="async" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
 </body>
 </html>

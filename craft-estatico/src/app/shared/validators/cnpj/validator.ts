@@ -45,12 +45,14 @@ function isValidCNPJ(cnpj: string): boolean {
     soma = 0;
     pos = tamanho - 7;
     for (let i = tamanho; i >= 1; i--) {
+      // @ts-ignore
         soma += numeros.charAt(tamanho - i) * pos--;
         if (pos < 2) {
             pos = 9;
         }
     }
     resultado = soma % 11 < 2 ? 0 : 11 - soma % 11;
+  // @ts-ignore
     if (resultado != digitos.charAt(0)) {
         return false;
     }
@@ -59,6 +61,7 @@ function isValidCNPJ(cnpj: string): boolean {
     soma = 0;
     pos = tamanho - 7;
     for (let i = tamanho; i >= 1; i--) {
+      // @ts-ignore
         soma += numeros.charAt(tamanho - i) * pos--;
         if (pos < 2) {
             pos = 9;
@@ -66,10 +69,11 @@ function isValidCNPJ(cnpj: string): boolean {
     }
     resultado = soma % 11 < 2 ? 0 : 11 - soma % 11;
 
-    return resultado == digitos.charAt(1);
+    // @ts-ignore
+  return resultado == digitos.charAt(1);
 }
 
-export const cnpj: ValidatorFn = (control: AbstractControl): { [key: string]: boolean } => {
+export const cnpj: ValidatorFn = (control: AbstractControl): { [key: string]: boolean } | null => {
   if (
     isPresent(Validators.required(control))
   ) { return null; }
@@ -81,4 +85,6 @@ export const cnpj: ValidatorFn = (control: AbstractControl): { [key: string]: bo
   if (value.length == 14) {
     return isValidCNPJ(value) ? null : {'cnpj': true}
   }
+
+  return null;
 }

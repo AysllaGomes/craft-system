@@ -6,9 +6,10 @@ import { isPresent } from '../util/lang';
  * Verifica a unicidade com base nos proprios valores
  * ou com base em um array ou outro Elemento de Formulário (AbstractControl)
  */
+// @ts-ignore
 export function unique(listControl: AbstractControl | Array<any> = null): ValidatorFn {
 
-  return (control: AbstractControl): { [key: string]: boolean } => {
+  return (control: AbstractControl): { [key: string]: boolean } | null => {
     let list: Array<any>;
 
     if (

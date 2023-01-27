@@ -18,7 +18,7 @@ function isValid(password: string): boolean {
   return patt.test(password);
 }
 
-export const password: ValidatorFn = (control: AbstractControl): { [key: string]: boolean } => {
+export const password: ValidatorFn = (control: AbstractControl): { [key: string]: boolean } | null => {
   if (
     isPresent(Validators.required(control))
   ) { return null; }

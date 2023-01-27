@@ -1,0 +1,195 @@
+#barra-brasil {
+    background: #f1f1f1 !important;
+}
+
+#barra-brasil div {
+    background: #f1f1f1 !important;
+}
+
+#barra-brasil .link-barra {
+    color: #606060 !important;
+}
+
+#barra-brasil .link-vlibras span {
+    color: #606060 !important;
+}
+
+#barra-brasil .link-vlibras a {
+    color: #08c !important;
+}
+
+span.topbar-badge.animated.rubberBand {
+    color: #333 !important;
+}
+
+.news-container {
+    background-color: transparent !important;
+}
+
+.mask-image {
+    background-color: transparent !important;
+}
+
+body {
+    background-color: #333 !important;
+}
+
+body .contrast-mode {
+    background-color: #333;
+}
+
+body div {
+    background-color: #333 !important;
+}
+
+body table tr, body table .empty-table-background {
+    background-color: #333 !important;
+    color: #ff0 !important;
+    border-color: #333 !important;
+}
+
+body table tr td {
+    border-color: #000 !important;
+}
+
+body table tr:nth-child(even) {
+    background: #222 !important;
+}
+
+body table th {
+    background-color: #ff0 !important;
+    border-color: #000 !important;
+    color: #333 !important;
+}
+
+body table .ui-sortable-column-icon {
+    color: #333 !important;
+}
+
+body button, body .ui-fileupload-choose.ui-button {
+    background-color: #ff0 !important;
+    color: #333 !important;
+}
+
+body button span, body .ui-fileupload-choose.ui-button span {
+    color: #333 !important;
+}
+
+body agm-map div {
+    background-color: initial !important;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6, body label, body i {
+    color: #ff0 !important;
+}
+
+body h1::after, body h2::after, body h3::after, body h4::after, body h5::after, body h6::after {
+    background-color: #ff0 !important;
+}
+
+body .ui-float-label p, body .ui-float-label label, body .ui-float-label span {
+    color: #ff0 !important;
+}
+
+body p, body a, body span, body b, body small, body input, body textarea, body select {
+    color: #fff !important;
+}
+
+body .logo {
+    background-color: #fff !important;
+}
+
+body .ui-autocomplete-list-item {
+    background-color: #333 !important;
+    color: #ff0 !important;
+}
+
+body .ui-dropdown-item {
+    background-color: #333 !important;
+}
+
+body span.ui-autocomplete-token-label.ng-star-inserted {
+    color: #333 !important;
+}
+
+body span.ui-autocomplete-token-icon {
+    color: #333 !important;
+}
+
+body .ui-messages-error {
+    color: #ff0 !important;
+}
+
+body .ui-inputtext.ng-dirty.ng-invalid, body p-dropdown.ng-dirty.ng-invalid > .ui-dropdown, body p-autocomplete.ng-dirty.ng-invalid > .ui-autocomplete > .ui-inputtext, body p-calendar.ng-dirty.ng-invalid > .ui-inputtext, body p-inputmask.ng-dirty.ng-invalid > .ui-inputtext, body p-checkbox.ng-dirty.ng-invalid .ui-chkbox-box, body p-radiobutton.ng-dirty.ng-invalid .ui-radiobutton-box, body p-inputswitch.ng-dirty.ng-invalid .ui-inputswitch, body p-listbox.ng-dirty.ng-invalid .ui-inputtext, body p-multiselect.ng-dirty.ng-invalid > .ui-multiselect, body p-spinner.ng-dirty.ng-invalid > .ui-inputtext, body p-selectbutton.ng-dirty.ng-invalid .ui-button, body p-togglebutton.ng-dirty.ng-invalid .ui-button {
+    border-color: #ff0 !important;
+}
+
+body .ui-autocomplete-dropdown.ui-button {
+    background-color: transparent !important;
+    color: #ff0 !important;
+}
+
+body a.ui-paginator-page {
+    background-color: #ff0 !important;
+    color: #333 !important;
+}
+
+body a.ui-paginator-page .ui-state-active {
+    background-color: #ff0 !important;
+}
+
+body .ui-table-summary {
+    color: #ff0 !important;
+}
+
+body .ui-inputtext:focus, body .ui-inputtext.ui-state-focus, body .ui-state-focus {
+    border-color: #ff0 !important;
+}
+
+body p-dropdown::before, body p-dropdown::after {
+    color: #ff0 !important;
+}
+
+body app-access-login img {
+    background-color: #fff !important;
+}
+
+body .profile-name {
+    color: #ff0 !important;
+}
+
+body .ultima-menu li a:hover {
+    background-color: #333 !important;
+}
+
+body .ultima-menu li.active-menuitem > a {
+    background-color: #333 !important;
+}
+
+#menu-button i {
+    color: #333 !important;
+}
+
+body .swal-overlay {
+    background: rgba(0, 0, 0, .4) !important;
+}
+
+body .swal-title {
+    color: #FF0 !important;
+}
+
+body .swal-text {
+    color: #FF0 !important;
+}
+
+body .swal-icon {
+    background: none !important;
+}
+
+body .swal-icon div {
+    background: none !important;
+}
+
+.swal-icon:after, .swal-icon:before {
+    background-color: transparent !important;
+}
