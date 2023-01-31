@@ -1,0 +1,10 @@
+export const environment = {
+    production: ~,
+    api: {
+        url: ~
+    },
+    googleAnalytics: {
+        trackingCode: ~,
+        viewId: ~,
+    }
+};

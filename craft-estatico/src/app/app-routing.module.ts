@@ -6,6 +6,9 @@ import { PageAccessDeniedComponent } from './template/page/page-access-denied/pa
 
 const routes: Routes = [
   {
+    path: '',
+  },
+  {
     path: 'acesso/negado',
     component: PageAccessDeniedComponent
   },

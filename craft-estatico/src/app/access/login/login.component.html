@@ -1,0 +1,59 @@
+<div class="background-image"></div>
+<div class="mask-background"></div>
+<div class="ui-g ui-fluid">
+    <div [ngClass]="{'contrast-mode': isContrast()}">
+        <div class="ui-g-12 ui-g-nopad ui-xl-2">
+            <div class="card card-w-title">
+                <div class="pos-center">
+                    <a [routerLink]="[getRouteHomepage()]">
+                        <div class="margin-auto">
+                            <h1><b>Ombudsman</b> de Investimentos Diretos</h1>
+                        </div>
+                    </a>
+                    <form [formGroup]="form" *ngIf="!showRecovery">
+                        <div class="ui-g form-group">
+
+                            <div class="ui-g-12">
+                                <span class="ui-float-label">
+                                    <input AppFormInput title="E-mail do usuário" formControlName="username"
+                                           id="credential-login-username" maxlength="100">
+
+                                    <label for="credential-login-username">E-mail</label>
+                                </span>
+                                <app-template-form-message [field]="form.get('username')"></app-template-form-message>
+                            </div>
+
+                            <div class="ui-g-12">
+                                <span class="ui-float-label">
+                                    <input type="password" name="password" [hidden]="true">
+                                    <input AppFormInput type="password" name="password" formControlName="password"
+                                           id="credential-login-password" title="Senha do usuário" maxlength="8">
+
+                                    <label for="credential-login-password">Senha</label>
+                                </span>
+
+                                <app-template-form-message [field]="form.get('password')"></app-template-form-message>
+                            </div>
+                        </div>
+
+                        <div class="ui-g-12">
+                            <button pButton type="submit" label="Entrar" (click)="authenticate()"
+                                    [disabled]="isDisabledSubmit()" icon="ui-icon-person" class="secondary">
+                            </button>
+                        </div>
+
+                        <div class="ui-g-12">
+                            <button pButton type="button" label="Esqueci a senha" (click)="toggleRecovery()"
+                                    class="primary" icon="ui-icon-help">
+                            </button>
+                        </div>
+                    </form>
+
+                    <app-password-recovery *ngIf="showRecovery" (hideRecovery)="toggleRecovery()"
+                                           class="ui-g-12 ui-g-nopad">
+                    </app-password-recovery>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
